@@ -3,8 +3,9 @@
   "version": "2.0.0",
   "description": "Plantuml rendering for DocPad, using node-plantuml",
   "homepage": "https://github.com/ninggf/docpad-plugin-plantuml",
-  "license": "MIT",
-  
+  "license": {
+    "type": "MIT"
+  },
   "badges": {
     "travis": true,
     "npm": true,
@@ -13,7 +14,6 @@
     "daviddev": true,
     "gratipay": "docpad"
   },
-
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -52,5 +52,7 @@
   "maintainers": [
     ""
   ],
-  "contributors": []
+  "contributors": [
+    "windywany (https://github.com/windywany)"
+  ]
 }

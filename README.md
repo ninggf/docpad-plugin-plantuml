@@ -7,7 +7,7 @@
 [![NPM downloads](https://img.shields.io/npm/dm/docpad-plugin-plantuml.svg)](https://npmjs.org/package/docpad-plugin-plantuml "View this project on NPM")
 [![Dependency Status](https://img.shields.io/david/ninggf/docpad-plugin-plantuml.svg)](https://david-dm.org/ninggf/docpad-plugin-plantuml)
 [![Dev Dependency Status](https://img.shields.io/david/dev/ninggf/docpad-plugin-plantuml.svg)](https://david-dm.org/ninggf/docpad-plugin-plantuml#info=devDependencies)<br/>
-
+[![Gratipay donate button](https://img.shields.io/gratipay/docpad.svg)](https://www.gratipay.com/docpad/ "Donate weekly to this project using Gratipay")
 
 <!-- /BADGES -->
 
@@ -76,12 +76,15 @@ These amazing people are maintaining this project:
 
 No sponsors yet! Will you be the first?
 
-
+[![Gratipay donate button](https://img.shields.io/gratipay/docpad.svg)](https://www.gratipay.com/docpad/ "Donate weekly to this project using Gratipay")
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/ninggf/docpad-plugin-plantuml/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [windywany](https://github.com/windywany) — [view contributions](https://github.com/ninggf/docpad-plugin-plantuml/commits?author=windywany)
+
+[Become a contributor!](https://github.com/ninggf/docpad-plugin-plantuml/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

@@ -16,7 +16,7 @@ module.exports = (BasePlugin) ->
 			if inExtension in ['uml','puml'] and outExtension in ['svg','eps','txt']
 				# Render asynchronously
 
-				gen = this.plantuml.generate( opts.content , format: if outExtension is 'txt' then 'unicode' else outExtension )
+				gen = this.plantuml.generate( opts.content ,{ charset: 'UTF-8', format: if outExtension is 'txt' then 'unicode' else outExtension} )
 
 				chunks = [];
 
@@ -27,8 +27,12 @@ module.exports = (BasePlugin) ->
 
 				gen.out.on('end', ->
 					buffer = Buffer.concat(chunks)
-					opts.content = buffer.toString('utf-8')
+					opts.content = buffer.toString('UTF-8')
 					next()
+				)
+				
+				gen.out.on('error', ->
+					next('error while reading plantuml output')
 				)
 
 			else
