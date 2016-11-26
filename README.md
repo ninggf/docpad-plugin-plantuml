@@ -11,6 +11,7 @@
 
 <!-- /BADGES -->
 
+
 使用plantuml将uml或puml结尾的文件转换成svg图片文件，目前无法转成png文件，遗憾。
 
 Convention:  `.svg.(uml|puml)`
@@ -27,6 +28,22 @@ docpad install plantuml
 
 <!-- /INSTALL -->
 
+
+## Configure
+
+为了性能，请在docpad的配置文件中添加以下配置:
+
+```coffescript
+
+events:
+		extendCollections: (opts) ->
+			@docpad.getCollection('documents').on('add', (document) ->
+				if document.toJSON().outExtension is 'svg'
+					document.setMetaDefaults(standalone:true)
+			
+            )
+
+```
 
 <!-- HISTORY/ -->
 
