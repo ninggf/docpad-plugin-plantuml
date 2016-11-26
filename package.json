@@ -1,11 +1,19 @@
 {
   "name": "docpad-plugin-plantuml",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Plantuml rendering for DocPad, using node-plantuml",
   "homepage": "https://github.com/ninggf/docpad-plugin-plantuml",
-  "license": {
-    "type": "MIT"
+  "license": "MIT",
+  
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "npmdownloads": true,
+    "david": true,
+    "daviddev": true,
+    "gratipay": "docpad"
   },
+
   "keywords": [
     "docpad",
     "docpad-plugin",
