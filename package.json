@@ -1,0 +1,48 @@
+{
+  "name": "docpad-plugin-plantuml",
+  "version": "1.0.0",
+  "description": "Plantuml rendering for DocPad, using node-plantuml",
+  "homepage": "https://github.com/ninggf/docpad-plugin-plantuml",
+  "license": {
+    "type": "MIT"
+  },
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "plantuml",
+    "uml"
+  ],
+  "author": "ninngf <windywany@gmail.com> (https://github.com/ninggf/)",
+  "bugs": {
+    "url": "https://github.com/ninggf/docpad-plugin-plantuml/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninggf/docpad-plugin-plantuml.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "dependencies": {
+    "node-plantuml": "^0.5.0"
+  },
+  "devDependencies": {
+    "docpad": "6",
+    "coffee-script": "^1.9.1",
+    "projectz": "^0.5.0"
+  },
+  "main": "./out/plantuml.plugin.js",
+  "scripts": {
+    "test": "node ./out/plantuml.test.js"
+  },
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  },
+  "maintainers": [
+    ""
+  ],
+  "contributors": []
+}
