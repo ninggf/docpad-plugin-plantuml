@@ -11,10 +11,9 @@
 
 <!-- /BADGES -->
 
+使用plantuml将uml或puml结尾的文件转换成svg图片文件，目前无法转成png文件，遗憾。
 
-Uppercase your text document's content by adding either the `uc` or `uppercase` extension to it
-
-Convention:  `.txt.(uc|uppercase)`
+Convention:  `.svg.(uml|puml)`
 
 
 
