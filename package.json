@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-plantuml",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Plantuml rendering for DocPad, using node-plantuml",
   "homepage": "https://github.com/ninggf/docpad-plugin-plantuml",
   "license": {

@@ -14,8 +14,10 @@ module.exports = (BasePlugin) ->
 			{inExtension,outExtension,file} = opts
 			if inExtension in ['uml','puml'] and outExtension in ['svg','eps','txt']
 				# Render asynchronously
+				if !opts.content
+					return next()
 
-				gen = this.plantuml.generate( opts.content+"\r\n" ,{ charset: 'UTF-8', format: if outExtension is 'txt' then 'unicode' else outExtension} )
+				gen = this.plantuml.generate( opts.content ,{ charset: 'UTF-8', format: if outExtension is 'txt' then 'unicode' else outExtension} )
 
 				chunks = [];
 
